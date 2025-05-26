@@ -19,6 +19,12 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
+    // Get all employees
+    @GetMapping("/")
+    public List<Employee> getAllEmployees() {
+        return employeeService.getAllEmployees();
+    }
+
     // 1: Get all active employees sorted by last name
     @GetMapping("/active")
     public List<Employee> getActiveEmployees() {

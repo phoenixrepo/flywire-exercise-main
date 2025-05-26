@@ -1,0 +1,11 @@
+.settings
+.classpath
+.project
+.vscode
+flywire-front/
+
+target/
+bin/
+
+node_modules/
+flywire-front

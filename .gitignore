@@ -2,10 +2,7 @@
 .classpath
 .project
 .vscode
-flywire-front/
+node_modules
 
 target/
 bin/
-
-node_modules/
-flywire-front
